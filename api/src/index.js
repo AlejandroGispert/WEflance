@@ -66,7 +66,7 @@ apiRouter.use("/developer", devRouter);
 apiRouter.use("/developer", developerClientsRouter);
 apiRouter.use("/projects", projectRouter);
 apiRouter.use("/projects", invoiceRouter);
-apiRouter.use("/projects", timelineRouter);
+apiRouter.use("/timeline", timelineRouter);;
 apiRouter.use("/chat", chatRoutes);
 apiRouter.use("/events", eventRouter);
 
